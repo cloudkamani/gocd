@@ -1,5 +1,7 @@
 #!/bin/bash
 
+chmod +x getosversion
+
 echo "this script gets os version and service pack and create a file in /tmp"
 
 cat /etc/os-release
